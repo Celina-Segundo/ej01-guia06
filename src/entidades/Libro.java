@@ -9,6 +9,7 @@ public class Libro {
     private String autor;
     private int numPaginas;
     
+    private String celina;
     
     //constructor vacio
     public Libro() {
