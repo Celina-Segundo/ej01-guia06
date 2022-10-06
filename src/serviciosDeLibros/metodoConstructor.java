@@ -31,6 +31,10 @@ public class metodoConstructor {
        return new Libro(ISBN,titulo,autor,numPaginas);
        
    } 
+   
+   public void mostrarInfo(Libro libro) {
+       System.out.println(libro.toString());
+   }
 }
 
 

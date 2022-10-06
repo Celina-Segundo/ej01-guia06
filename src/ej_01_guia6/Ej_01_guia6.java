@@ -8,7 +8,6 @@ numero de páginas.
 package ej_01_guia6;
 
 import entidades.Libro;
-import java.util.Scanner;
 import serviciosDeLibros.metodoConstructor;
 
 /**
@@ -30,8 +29,8 @@ public class Ej_01_guia6 {
         
         metodoConstructor aa = new metodoConstructor();
         Libro L1 = aa.crearLibro();
-        
-        System.out.println(L1.toString());
+        aa.mostrarInfo(L1);
+        //System.out.println(L1.toString());
         
     }
     
